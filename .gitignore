@@ -4,3 +4,8 @@ bin/
 obj/
 .vs/
 node_modules/
+
+# Python 本地测试环境与缓存，不应提交到仓库
+.venv/
+.pytest_cache/
+__pycache__/

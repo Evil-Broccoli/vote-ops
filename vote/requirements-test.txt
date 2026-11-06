@@ -1,0 +1,5 @@
+# 复用 vote 服务的运行时依赖，避免测试环境遗漏真实依赖
+-r requirements.txt
+
+# pytest 只用于本地测试和 CI，不进入生产镜像
+pytest
